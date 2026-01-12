@@ -843,31 +843,6 @@ Vulnerabilities found: 2
 
 ---
 
-## 🧪 Testing
-
-```bash
-# Run all tests
-make test
-
-# Run unit tests only
-go test ./internal/...
-
-# Run property-based tests
-go test -v ./internal/... -run Property
-
-# Run integration tests
-go test -v ./integration_test.go
-
-# Run end-to-end tests
-./run_e2e_test.sh
-
-# Run performance benchmarks
-./run_performance_tests.sh
-
-# Generate coverage report
-make coverage
-```
-
 ---
 
 ## 🔒 Security & Legal
