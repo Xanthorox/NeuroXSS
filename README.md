@@ -323,23 +323,6 @@ brew install chromium
 # Download from https://www.google.com/chrome/
 ```
 
-### Build from Source
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/neuroxss.git
-cd neuroxss
-
-# Build the binary
-go build -o neuroxss cmd/neuroxss/main.go
-
-# Or use Make (Unix/Linux/macOS)
-make build
-
-# Or use build.bat (Windows)
-build.bat build
-```
-
 ### Quick Test
 
 ```bash
